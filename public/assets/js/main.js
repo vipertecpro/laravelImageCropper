@@ -213,26 +213,46 @@ function b64toBlob(b64Data, contentType, sliceSize) {
                   $('#getImageInputContainer').html(result);
                       var imageURL = result.toDataURL(uploadedImageType);
                       var block = imageURL.split(";");
-                      // Get the content type
-                      var contentType = block[0].split(":")[1];// In this case "image/gif"
-                      // get the real base64 content of the file
+                      var contentType = block[0].split(":")[1];
                       var realData = block[1].split(",")[1];
                       var blob = b64toBlob(realData, contentType);
-                    alert(blob);
                       var fd = new FormData($("#myForm"));
                       fd.append("imageFile", blob);
-                        // $('#getImageInputContainer').append('<input type="file" class="form-control" name="imageFile" value="'+blob+'">');
-                      // result.toBlob(function (blob) {
-                      //     var formData = new FormData();
-                      //     formData.append('croppedImage', blob);
-                      //     $('#getImageInputContainer').append('<input type="file" class="form-control" name="imageFile" value="'+formData+'">');
-                      // });
-
-                  // result.toBlob(function(blob) {
-                  //     var url = URL.createObjectURL(blob);
-                  //     $('#getImageInputContainer').append('<input type="file" class="form-control" name="imageFile" value="'+url+'">');
-                  // });
-
+                      fd.append("imageFileExtenstion", uploadedImageType);
+                      $.ajaxSetup({
+                          headers: {
+                              'X-CSRF-TOKEN': $('meta[name="csrf_token"]').attr('content')
+                          }
+                      });
+                      $.ajax({
+                          url : $('[name=routeName]').val(),
+                          method: "POST",
+                          data: fd,  
+                          processData: false,
+                          contentType: false,
+                          success: function (data) {
+                            console.log('Image Upload Successfully.');
+                          },
+                          error: function (jqXHR, exception) {
+                              var msg = '';
+                              if (jqXHR.status === 0) {
+                                  msg = 'Not connect.\n Verify Network.';
+                              } else if (jqXHR.status == 404) {
+                                  msg = 'Requested page not found. [404]';
+                              } else if (jqXHR.status == 500) {
+                                  msg = 'Internal Server Error [500].';
+                              } else if (exception === 'parsererror') {
+                                  msg = 'Requested JSON parse failed.';
+                              } else if (exception === 'timeout') {
+                                  msg = 'Time out error.';
+                              } else if (exception === 'abort') {
+                                  msg = 'Ajax request aborted.';
+                              } else {
+                                  msg = 'Uncaught Error.\n' + jqXHR.responseText;
+                              }
+                              console.log(msg);
+                          }
+                      }); 
               }
               break;
 

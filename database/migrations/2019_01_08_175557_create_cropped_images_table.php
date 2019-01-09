@@ -15,7 +15,7 @@ class CreateCroppedImagesTable extends Migration
     {
         Schema::create('cropped_images', function (Blueprint $table) {
             $table->increments('id');
-            $table->increments('image_path');
+            $table->longText('image_path');
             $table->timestamps();
         });
     }

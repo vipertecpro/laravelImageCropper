@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>LARAVEL-JQUERY-CROPPER</title>
     <link rel="shortcut icon" type="image/png" href="{{ asset("favicon.ico") }}">
+    <meta name="csrf_token" content="{{ csrf_token() }}" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset("assets/css/bootstrap.min.css") }}">
     <link rel="stylesheet" href="{{ asset("assets/css/cropper.css") }}">
@@ -21,22 +22,11 @@
     <div class="row">
         <div class="col-md-12">
             <h1 class="text-center">Submit Form</h1>
-            {!!
-                Form::open([
-                    'id'        => 'myForm',
-                    'route'     => 'home',
-                    'files'     => true
-                ])
-             !!}
-            <div class="form-group">
-                <div id="getImageInputContainer">
-                </div>
-            </div>
             <div class="form-group form-buttons">
-                <button type="button" class="btn btn-warning" data-method="getImageInputBtn">Get Image Input In Form</button>
-                <button type="submit" class="btn btn-success">Submit</button>
+                {{ Form::hidden('routeName',route('submit')) }}
+                <button type="button" class="btn btn-warning" data-method="getImageInputBtn">Submit Image Using AJAX</button>
+                
             </div>
-            {!! Form::close() !!}
         </div>
     </div>
     <hr>
@@ -528,7 +518,7 @@
     <hr>
 </div>
 
-<script src="{{ asset("assets/js/jquery-3.3.1.slim.min.js") }}"></script>
+<script src="{{ asset("assets/js/jquery-3.3.1.min.js") }}"></script>
 <script src="{{ asset("assets/js/bootstrap.bundle.min.js") }}"></script>
 <script src="{{ asset("assets/js/canvas-to-blob.min.js") }}"></script>
 <script src="{{ asset("assets/js/cropper.js") }}"></script>
