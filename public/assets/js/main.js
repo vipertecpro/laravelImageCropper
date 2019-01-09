@@ -231,9 +231,11 @@ function b64toBlob(b64Data, contentType, sliceSize) {
                           processData: false,
                           contentType: false,
                           success: function (data) {
+                              alert(data);
                             console.log('Image Upload Successfully.');
                           },
                           error: function (jqXHR, exception) {
+                              alert(jqXHR);
                               var msg = '';
                               if (jqXHR.status === 0) {
                                   msg = 'Not connect.\n Verify Network.';

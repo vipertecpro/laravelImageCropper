@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a985e6-1013-4179-a505-3c0d1ae476d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_08_175557_create_cropped_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_08_175557_create_cropped_images_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cropped.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,44 +29,87 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="2" />
+          <entry key="env" value="3" />
           <entry key="example" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="11" />
+          <entry key="jpeg" value="1" />
+          <entry key="js" value="14" />
           <entry key="json" value="1" />
-          <entry key="php" value="12" />
+          <entry key="md" value="1" />
+          <entry key="php" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="3" />
-          <entry key="Blade" value="1" />
+          <entry key=".env file" value="4" />
+          <entry key="Blade" value="2" />
+          <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="11" />
-          <entry key="PHP" value="11" />
+          <entry key="JavaScript" value="14" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="env" value="3" />
-          <entry key="js" value="486" />
-          <entry key="php" value="939" />
+          <entry key="env" value="6" />
+          <entry key="js" value="496" />
+          <entry key="md" value="23" />
+          <entry key="php" value="1243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="3" />
-          <entry key="Blade" value="661" />
+          <entry key=".env file" value="6" />
+          <entry key="Blade" value="723" />
           <entry key="CSS" value="1" />
-          <entry key="JavaScript" value="485" />
-          <entry key="PHP" value="278" />
+          <entry key="JavaScript" value="495" />
+          <entry key="Markdown" value="23" />
+          <entry key="PHP" value="520" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="357" column="52" selection-start-line="357" selection-start-column="52" selection-end-line="357" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -85,6 +122,9 @@
       <find>form-buttons</find>
       <find>getCroppedCanvas</find>
       <find>getImageInputBtn</find>
+      <find>free</find>
+      <find>aspectRatio</find>
+      <find>NaN</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,13 +134,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_08_175557_create_cropped_images_table.php" />
         <option value="$PROJECT_DIR$/app/CroppedImages.php" />
         <option value="$PROJECT_DIR$/public/assets/js/cropper.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -207,7 +248,7 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="329" />
     <option name="y" value="170" />
     <option name="width" value="683" />
@@ -226,6 +267,24 @@
             <path>
               <item name="laravelImageCropper" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravelImageCropper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravelImageCropper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelImageCropper" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravelImageCropper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelImageCropper" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravelImageCropper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelImageCropper" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,17 +330,18 @@
       <updated>1546969517650</updated>
       <workItem from="1546969520469" duration="8534000" />
       <workItem from="1547000426307" duration="5812000" />
-      <workItem from="1547060293663" duration="222000" />
+      <workItem from="1547060293663" duration="2646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14642000" />
+    <option name="totallyTimeSpent" value="16992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3290469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17019667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,7 +354,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,13 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -378,40 +431,100 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap.bundle.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/jquery-cropper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/storage/app/public/croppedImages/blob6aUmVheZqZVgZJUMFVEOjKNdrCO4TZx8lCda6vaJ.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="220" column="32" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/cropper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="3188" column="11" lean-forward="true" selection-start-line="3188" selection-start-column="11" selection-end-line="3188" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="1432" column="60" selection-start-line="1432" selection-start-column="49" selection-end-line="1432" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4200#6490#0" />
+            <element signature="e#25066#25900#0" />
+            <element signature="e#26090#26677#0" />
+            <element signature="e#27051#30398#0" />
+            <element signature="e#30748#30918#0" />
+            <element signature="e#74215#74573#0" />
+            <element signature="e#75082#75548#0" />
+            <element signature="e#75126#75522#0" />
+            <element signature="e#75830#76565#0" />
+            <element signature="e#76634#76792#0" />
+            <element signature="e#76862#77017#0" />
+            <element signature="e#77165#77441#0" />
+            <element signature="e#77733#78100#0" />
+            <element signature="e#78329#78882#0" />
+            <element signature="e#79139#79423#0" />
+            <element signature="e#79754#81586#0" />
+            <element signature="e#82041#82281#0" />
+            <element signature="e#82469#82583#0" />
+            <element signature="e#82771#82885#0" />
+            <element signature="e#83127#83754#0" />
+            <element signature="e#84022#85492#0" />
+            <element signature="e#85685#87128#0" />
+            <element signature="e#87509#87575#0" />
+            <element signature="e#88205#88881#0" />
+            <element signature="e#89045#89352#0" />
+            <element signature="e#89359#89511#0" />
+            <element signature="e#89562#90587#0" />
+            <element signature="e#90816#95199#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="357" column="52" selection-start-line="357" selection-start-column="52" selection-end-line="357" selection-end-column="52" />
         </state>
       </provider>
     </entry>

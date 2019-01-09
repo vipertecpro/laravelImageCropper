@@ -21,7 +21,7 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <h1 class="text-center">Submit Form</h1>
+            <h1 class="text-center">Submit Image To Database using Ajax Call</h1>
             <div class="form-group form-buttons">
                 {{ Form::hidden('routeName',route('submit')) }}
                 <button type="button" class="btn btn-warning" data-method="getImageInputBtn">Submit Image Using AJAX</button>
@@ -331,7 +331,7 @@
         <div class="col-md-3 docs-toggles">
             <!-- <h3>Toggles:</h3> -->
             <div class="btn-group d-flex flex-nowrap" data-toggle="buttons">
-                <label class="btn btn-primary active">
+                <label class="btn btn-primary ">
                     <input type="radio" class="sr-only" id="aspectRatio0" name="aspectRatio" value="1.7777777777777777">
                     <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="aspectRatio: 16 / 9">
               16:9
@@ -355,7 +355,7 @@
               2:3
             </span>
                 </label>
-                <label class="btn btn-primary">
+                <label class="btn btn-primary active">
                     <input type="radio" class="sr-only" id="aspectRatio4" name="aspectRatio" value="NaN">
                     <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="aspectRatio: NaN">
               Free
